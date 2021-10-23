@@ -126,6 +126,35 @@
 }
 
 /***************************************/
+/* FEATURED IN SECTION */
+/***************************************/
+
+.section-featured {
+  padding: 4.8rem 0 3.2rem 0;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos img {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
+
+.heading-featured {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  color: #888;
+}
+
+/***************************************/
 /* HOW TO SECTION */
 /***************************************/
 
@@ -148,4 +177,129 @@
 .step-img {
   width: 70%;
   border-radius: 0.8rem;
+}
+
+/***************************************/
+/* MEALS SECTION */
+/***************************************/
+
+.section-meals {
+  padding: 9.6rem 0;
+}
+
+.tag {
+  display: flex;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #333;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.meal-title {
+  font-size: 2rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.meal-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.meal-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.meal-attribute:last-child {
+  margin-bottom: 0;
+}
+
+.meal-img {
+  width: 100%;
+}
+
+.meal-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #1e7cff;
+}
+
+.meal-tags {
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.8rem;
+  justify-content: left;
+}
+
+.meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  width: 27%;
+  transition: all 0.4s;
+}
+
+.diets {
+  width: 27%;
+}
+
+.meal-cust {
+  justify-content: space-between;
+}
+
+.meal-content {
+  padding: 3.2rem;
+}
+
+.vig {
+  background-color: #8c4b37;
+  color: #ddd;
+}
+
+.veg {
+  background-color: #40c057;
+}
+
+.pal {
+  background-color: #ffe066;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-icon {
+  height: 3rem;
+  width: 3rem;
+  color: #1e7cff;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.all-recipie {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.meal:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
