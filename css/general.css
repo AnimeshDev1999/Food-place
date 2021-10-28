@@ -208,3 +208,19 @@ strong {
 .center-text {
   text-align: center;
 }
+
+.marg {
+  margin-top: 4.8rem;
+}
+
+.section-gep {
+  padding: 9.6rem;
+}
+
+.custom-half-one {
+  width: 55%;
+}
+
+.custom-half-two {
+  width: 45%;
+}
