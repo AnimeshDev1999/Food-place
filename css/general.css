@@ -152,12 +152,24 @@ body {
   flex-direction: column;
 }
 
+.flex-placement {
+  justify-content: space-around;
+}
+
+.flex-placement-bet {
+  justify-content: space-between;
+}
+
 .flex-gap {
   gap: 9.6rem;
 }
 
 .half {
   width: 50%;
+}
+
+.quart {
+  width: 20%;
 }
 
 .center {
@@ -223,4 +235,32 @@ strong {
 
 .custom-half-two {
   width: 45%;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-icon {
+  height: 3rem;
+  width: 3rem;
+  color: #1e7cff;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.marg-bottom {
+  margin-bottom: 9.6rem;
+}
+
+.marg-bottom-1 {
+  margin-bottom: 4.8rem;
 }
