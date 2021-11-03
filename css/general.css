@@ -188,10 +188,6 @@ body {
   width: 50%;
 }
 
-.quart {
-  width: 20%;
-}
-
 .center {
   display: flex;
   justify-content: center;

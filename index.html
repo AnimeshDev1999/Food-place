@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="./css/querries.css" />
   </head>
   <body>
-    <header class="header nav-open">
+    <header class="header">
       <a href="#"
         ><img src="./img/Food Place.png" alt="Food Place logo" class="logo"
       /></a>
@@ -108,7 +108,7 @@
         </div>
         <div class="container flex flex-col flex-gap">
           <!-- STEP 01 -->
-          <div class="container flex">
+          <div class="container flex resp-how">
             <div class="step-text-box half center-v">
               <p class="step-number">01</p>
               <h3 class="heading-third">Pick your preferences</h3>
@@ -127,7 +127,7 @@
             </div>
           </div>
           <!-- STEP 02 -->
-          <div class="container flex">
+          <div class="container flex resp-how">
             <div class="step-img-box half left-bord center">
               <img
                 src="./img/how to/how to 2.png"
@@ -146,7 +146,7 @@
             </div>
           </div>
           <!-- STEP 03 -->
-          <div class="container flex">
+          <div class="container flex resp-how">
             <div class="step-text-box half center-v">
               <p class="step-number">03</p>
               <h3 class="heading-third">Choose your meal time</h3>
@@ -176,69 +176,71 @@
         </div>
 
         <div class="container flex meal-cust margin-bottom-md">
-          <div class="meal flex flex-col">
-            <img
-              src="./img/meals/Meal 1.jpg"
-              alt="Japanese fluffy pancake"
-              class="meal-img"
-            />
-            <div class="meal-content">
-              <div class="meal-tags">
-                <span class="tag veg">Vegetarian</span>
+          <div class="cust-coll-res">
+            <div class="meal flex flex-col">
+              <img
+                src="./img/meals/Meal 1.jpg"
+                alt="Japanese fluffy pancake"
+                class="meal-img"
+              />
+              <div class="meal-content">
+                <div class="meal-tags">
+                  <span class="tag veg">Vegetarian</span>
+                </div>
+                <p class="meal-title">Japanese fluffy pancake</p>
+                <ul class="meal-attributes">
+                  <li class="meal-attribute">
+                    <ion-icon class="meal-icon" name="flame-outline"></ion-icon
+                    ><span><strong>227</strong> calories</span>
+                  </li>
+
+                  <li class="meal-attribute">
+                    <ion-icon
+                      class="meal-icon"
+                      name="restaurant-outline"
+                    ></ion-icon
+                    ><span>Nutriscore &reg; <strong>74</strong></span>
+                  </li>
+
+                  <li class="meal-attribute">
+                    <ion-icon class="meal-icon" name="star-outline"></ion-icon
+                    ><span><strong>4.9</strong> rating (640)</span>
+                  </li>
+                </ul>
               </div>
-              <p class="meal-title">Japanese fluffy pancake</p>
-              <ul class="meal-attributes">
-                <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon
-                  ><span><strong>227</strong> calories</span>
-                </li>
-
-                <li class="meal-attribute">
-                  <ion-icon
-                    class="meal-icon"
-                    name="restaurant-outline"
-                  ></ion-icon
-                  ><span>Nutriscore &reg; <strong>74</strong></span>
-                </li>
-
-                <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="star-outline"></ion-icon
-                  ><span><strong>4.9</strong> rating (640)</span>
-                </li>
-              </ul>
             </div>
-          </div>
-          <div class="meal flex flex-col">
-            <img
-              src="./img/meals/Meal 2.jpg"
-              alt="Mexican chickpea salad"
-              class="meal-img"
-            />
-            <div class="meal-content">
-              <div class="meal-tags">
-                <span class="tag vig">Vegan</span>
-                <span class="tag pal">Paleo</span>
+            <div class="meal flex flex-col">
+              <img
+                src="./img/meals/Meal 2.jpg"
+                alt="Mexican chickpea salad"
+                class="meal-img"
+              />
+              <div class="meal-content">
+                <div class="meal-tags">
+                  <span class="tag vig">Vegan</span>
+                  <span class="tag pal">Paleo</span>
+                </div>
+                <p class="meal-title">Mexican chickpea salad</p>
+                <ul class="meal-attributes">
+                  <li class="meal-attribute">
+                    <ion-icon class="meal-icon" name="flame-outline"></ion-icon
+                    ><span><strong>269</strong> calories</span>
+                  </li>
+
+                  <li class="meal-attribute">
+                    <ion-icon
+                      class="meal-icon"
+                      name="restaurant-outline"
+                    ></ion-icon
+                    ><span>Nutriscore &reg; <strong>80</strong></span>
+                  </li>
+
+                  <li class="meal-attribute">
+                    <ion-icon class="meal-icon" name="star-outline"></ion-icon
+                    ><span><strong>4.6</strong> rating (740)</span>
+                  </li>
+                </ul>
               </div>
-              <p class="meal-title">Mexican chickpea salad</p>
-              <ul class="meal-attributes">
-                <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon
-                  ><span><strong>269</strong> calories</span>
-                </li>
-
-                <li class="meal-attribute">
-                  <ion-icon
-                    class="meal-icon"
-                    name="restaurant-outline"
-                  ></ion-icon
-                  ><span>Nutriscore &reg; <strong>80</strong></span>
-                </li>
-
-                <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="star-outline"></ion-icon
-                  ><span><strong>4.6</strong> rating (740)</span>
-                </li>
-              </ul>
             </div>
           </div>
           <div class="diets">
@@ -503,39 +505,47 @@
         </div>
 
         <div class="container flex flex-placement-bet">
-          <div class="feature quart">
-            <ion-icon class="feature-icon" name="infinite-outline"></ion-icon>
-            <p class="feature-title">Never worry about cooking again!</p>
-            <p class="feature-text">
-              We deliver food every day of the year even all the holidays.
-            </p>
+          <div class="div-respo">
+            <div class="feature quart">
+              <ion-icon class="feature-icon" name="infinite-outline"></ion-icon>
+              <p class="feature-title">Never worry about cooking again!</p>
+              <p class="feature-text">
+                We deliver food every day of the year even all the holidays.
+              </p>
+            </div>
+            <div class="feature quart">
+              <ion-icon
+                class="feature-icon"
+                name="nutrition-outline"
+              ></ion-icon>
+              <p class="feature-title">No adulteration</p>
+              <p class="feature-text">
+                We use only organic and in-house made food ingredients.
+              </p>
+            </div>
           </div>
-          <div class="feature quart">
-            <ion-icon class="feature-icon" name="nutrition-outline"></ion-icon>
-            <p class="feature-title">No adulteration</p>
-            <p class="feature-text">
-              We use only organic and in-house made food ingredients.
-            </p>
-          </div>
-          <div class="feature quart">
-            <ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
-            <p class="feature-title">Eco friendly</p>
-            <p class="feature-text">
-              We use eco friendly re-usable packaging to keep environment clean.
-            </p>
-          </div>
-          <div class="feature quart">
-            <ion-icon class="feature-icon" name="pause-outline"></ion-icon>
-            <p class="feature-title">Subscription management</p>
-            <p class="feature-text">
-              You may cancel your subscription at any time you want.
-            </p>
+          <div class="div-respo">
+            <div class="feature quart">
+              <ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
+              <p class="feature-title">Eco friendly</p>
+              <p class="feature-text">
+                We use eco friendly re-usable packaging to keep environment
+                clean.
+              </p>
+            </div>
+            <div class="feature quart">
+              <ion-icon class="feature-icon" name="pause-outline"></ion-icon>
+              <p class="feature-title">Subscription management</p>
+              <p class="feature-text">
+                You may cancel your subscription at any time you want.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
       <section class="section-cta">
-        <div class="container">
+        <div class="container resp-form">
           <div class="cta flex">
             <div class="cta-text-box">
               <h2 class="heading-secondary">Get your first free meal!</h2>
