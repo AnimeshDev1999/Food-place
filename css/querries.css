@@ -149,7 +149,11 @@
   }
 
   .main-nav {
-    background-color: rgba(177, 221, 249, 0.9);
+    background-image: linear-gradient(
+      to top,
+      rgb(177, 221, 249),
+      rgba(177, 221, 249, 0.9)
+    );
     position: absolute;
     top: 0;
     left: 0;
